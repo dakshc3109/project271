@@ -52,7 +52,7 @@ def get_otp():
     if verification_check.status == "pending":
         print("Enterd otp is wrong")
     else:
-        return(redirect('https://projectC71.onrender.com/'))
+        return(redirect('https://projectc71.onrender.com/'))
 
 if __name__ == "__main__":
     app.run()
